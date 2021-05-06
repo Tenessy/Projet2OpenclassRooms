@@ -1,0 +1,114 @@
+.grey {
+	background-color: #F2F2F2;
+}
+
+.bleu {
+	background-color: #0065FC;
+}
+
+.heberge{
+
+   width: 880px;
+   height: 625px;
+   background-color: #F2F2F2;
+   border-radius: 8px 8px 8px 8px;
+}
+.heberge h3 {
+
+	margin-left: 40px;
+	margin-top: 45px
+}
+.container {
+
+   	margin-left: 50px;	
+   	margin-top: 45px;	
+}
+.hotel {
+
+	width: 245px;
+	height: 200px;
+	background-color: white;
+	margin-left: 30px;
+	border-radius: 15px 15px 15px 15px;
+}
+.hotel img {
+
+  border-radius: 15px 15px 0px 0px;
+  width: 235px;
+  height: 115px;
+  margin-left: 5px;
+  margin-top: 5px;
+
+}
+
+
+.hotel h4 {
+
+	margin-left: 15px;
+	font-weight: bold;
+	font-size: 0.7em;
+	margin-top: 10px;
+}
+
+.hotel h5{
+
+	margin-left: 15px;
+	font-size: 0.5em;
+}
+.hotel i {
+
+	color: #0065FC;
+}
+#logement {
+
+	display: flex;
+	margin-top: 45px;
+}
+
+#logement2{
+
+	display: flex;
+	margin-top: 30px;
+}
+
+
+#entete {
+
+	display: flex;
+	margin-left: 928px;
+	position: absolute;
+	
+}
+
+
+
+a {
+	text-decoration: none;
+}
+
+#entete li {
+
+	margin-right: 67px;
+	font-size: 0.6em;
+	list-style-type: none;
+}
+
+@media (min-width: 1200px) {
+
+	.container {
+		width: 1340px;
+	}
+}
+
+@media (min-width: 100px){
+	.container {
+		width: 420px;
+	}
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+
+	.container {
+		width: 880px;
+	}
+}
