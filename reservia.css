@@ -7,13 +7,19 @@
 	background-color: #0065FC;
 }
 
+#search2 {
+
+	display: none;
+}
 body{
 
 	font-family: 'Raleway', sans-serif;
+	
 }
 header {
 
 	width: 1315px;	
+	
 }
 
 header img {
@@ -21,7 +27,115 @@ header img {
 	width: 100px; 
 	height: 50px; 
 	margin-top:35px;
-	margin-left: 10px;
+	margin-left: 50px;
+}
+
+#entete {
+
+	display: flex;
+	margin-left: 928px;
+	font-weight: bold;
+	margin-top: -20px;	
+}
+
+#entete a {
+
+	margin-right: 67px;
+	font-size: 0.6em;
+	list-style-type: none;
+}
+
+#menu {
+
+	width: 920px;
+	margin-left: 50px;
+	margin-top:45px
+}
+
+#filtre li{
+	list-style-type: none;
+	margin-left: 20px;
+	border-radius: 30px;
+	border-style: solid;
+	border-color:  #F2F2F2;
+	height: 45px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#filtre li:hover {
+
+	background-color: #0065FC;
+	color: white;
+}
+
+#filtre #a {
+	
+	width: 192px;
+
+}
+#filtre #b {
+
+	width: 145px;
+}
+
+#filtre #c {
+
+	width: 180px;
+}
+
+#filtre #d {
+	
+	width: 240px;
+}
+
+.cerclebleu{
+
+	color: #0065FC;
+	border-radius: 50%;
+	background-color: #DEEBFF;
+	width: 50px;
+	height: 50px;
+	margin-top: -3px;
+	margin-left: -3px;
+}
+
+.cerclebleu i {
+
+	margin-top: 18px;
+}
+
+#filtre{
+
+	display: flex;
+	text-decoration: none;
+	width: 1350PX;
+	margin-left: -25px;
+	margin-top: 30px;
+}
+
+
+#filtre li h4 {
+
+	margin-top: -35px;
+	margin-left: 45px;
+}
+.info {
+
+	color: #0065FC;
+	margin-left:12px;
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	border: 1px solid #F2F2F2;
+	margin-left: 15px;
+	
+}
+
+.info i {
+	font-size: 10px;
+	margin-left: 8px;
+	margin-top: 4px;
 }
 
 .heberge{
@@ -31,13 +145,14 @@ header img {
    background-color: #F2F2F2;
    border-radius: 8px 8px 8px 8px;
    margin-top: 45px;
+   margin-left: 50px;
    float: left; 
 }
 .heberge h3 {
 
 	margin-left: 40px;
 	font-size: 22px;
-	padding-top: 45px;
+	padding-top: 40px;
 	
 	
 }
@@ -49,11 +164,7 @@ header img {
 	color: black;
  }
 
-.container {
-	
-   	margin-left: 50px;	
-   
-}
+
 .hotel {
 
 	width: 245px;
@@ -127,27 +238,17 @@ a {
 }
 
 
-#entete {
-
-	display: flex;
-	margin-left: 928px;
-	font-weight: bold;
-	margin-top: -20px;
-
-	
-}
-
-.populaire {
+#populaire {
 
    width: 417px;
    height: 625px;
    background-color: #F2F2F2;
    border-radius: 8px 8px 8px 8px;
-   margin-left: 440px;
+   margin-left: 40px;
    margin-top: 45px;
   
 }
-.populaire img {
+#populaire img {
 
 	width: 133px;
 	height: 130px;
@@ -155,12 +256,12 @@ a {
 	margin-left: 5px;
 	margin-top: 5px;
 }
-.populaire h3 {
+#populaire h3 {
 
 	margin-left: 30px;
 	padding-top: 45px;
 }
-.populaire h4{
+#populaire h4{
 	margin-left: 150px;
 	font-size: 15px;
 	margin-top: -110px;
@@ -168,7 +269,7 @@ a {
 
 }
 
-.populaire h5 {
+#populaire h5 {
 	margin-left: 150px;
 	font-size: 13px;
 	margin-top: -15px;
@@ -177,7 +278,7 @@ a {
 
 }
 
-.populaire i {
+#populaire i {
 
 	color: #0065FC;
 	font-size: 12px;
@@ -210,21 +311,16 @@ a {
 
 	display: flex;	
 }
-#entete li {
-
-	margin-right: 67px;
-	font-size: 0.6em;
-	list-style-type: none;
-}
 
 .hotel3{
 
 	width: 300px;
 	height: 445px;
-	margin-left: 5px;
+	margin-left: 40px;
 	background-color: white;
 	box-shadow: 0px 5px 15px 0px #F2F2F2;
 	border-radius: 15px/15px;
+
 }
 
 .hotel3 img {
@@ -237,7 +333,7 @@ a {
 .hotel4 {
 	width: 300px;
 	height: 240px;
-	margin-left: 5px;
+	margin-left: 40px;
 	background-color: white;
 	box-shadow: 0px 5px 15px 0px #F2F2F2;
 	border-radius: 15px/15px;
@@ -247,100 +343,85 @@ a {
 .hotel4 img {
 
 	width: 300px;
-	height: 185px;
+	height: 180px;
 	border-radius: 15px 15px 0px 0px;
 }
 
+
+#conteneur h3 {
+
+	margin-left: 18px;
+	margin-top: 20px;
+	font-size: 14px;
+
+}
 .hotel5 {
 
 	width: 300px;
-	height: 165px;
-	margin-left: 5px;
+	height: 160px;
+	margin-left: 40px;
+	margin-top: 40px;
 	background-color: white;
 	box-shadow: 0px 5px 15px 0px #F2F2F2;
 	border-radius: 15px/15px;
-
 }
 
+.hotel7 {
+
+	width: 305px;
+	height: 205px;
+	margin-left: 40px;
+	margin-top: 40px;
+	background-color: white;
+	box-shadow: 0px 5px 15px 0px #F2F2F2;
+	border-radius: 15px/15px;
+}
+
+.hotel7 img {
+	width: 305px;
+	height: 150px;
+	border-radius: 15px 15px 0px 0px;
+}
+#conteneur {
+
+	display: flex;
+	margin-top: 25px;
+}
+
+.hotel5 img {
+	width: 300px;
+	height: 110px;
+	border-radius: 15px 15px 0px 0px;
+}
+.alignement3 {
+
+	display: flex;
+	flex-direction: column;
+}
+
+.hotel6 {
+
+	width: 305px;
+	height: 195px;
+	margin-left: 40px;
+	background-color: white;
+	box-shadow: 0px 5px 15px 0px #F2F2F2;
+	border-radius: 15px/15px;
+}
+
+.hotel6 img {
+
+	width: 305px;
+	height: 140px;
+	border-radius: 15px 15px 0px 0px;
+}
 #menu h5 {
 
 	font-weight: normal;
-	height: 0;
-	
-}
-#menu {
-
-	width: 920px;
-	margin-left: 15px;
-	margin-top:45px
+	height: 0;	
 }
 
 
-#filtre{
-
-	display: flex;
-	text-decoration: none;
-	width: 1350PX;
-	margin-left: -40px;
-	margin-top: 30px;
-}
-
-#filtre li{
-	list-style-type: none;
-	margin-left: 25px;
-	border-radius: 30px;
-	border-style: solid;
-	border-color:  #F2F2F2;
-	width: 180px;
-	height: 45px;
-	text-align: center;
-	font-weight: bold;
-}
-
-#filtre li:hover {
-
-	background-color: #0065FC;
-	color: white;
-}
-
-.cerclebleu{
-
-	color: #0065FC;
-	border-radius: 50%;
-	background-color: #DEEBFF;
-	width: 50px;
-	height: 50px;
-	margin-top: -3px;
-	margin-left: -3px;
-}
-
-.cerclebleu i {
-
-	margin-top: 18px;
-}
-
-#filtre li h4 {
-
-	margin-top: -35px;
-	margin-left: 45px;
-}
-.info {
-
-	color: #0065FC;
-	margin-left:12px;
-	border-radius: 50%;
-	height: 20px;
-	width: 20px;
-	border: 1px solid #F2F2F2;
-	margin-left: -5px;
-	
-}
-
-.info i {
-	font-size: 10px;
-	margin-left: 8px;
-	margin-top: 4px;
-}
 #alignement2{
 
 	display: flex;
@@ -351,6 +432,7 @@ a {
 	border: none;
 	width: 130px;
 	height: 50px;
+	margin-left: -5px;
 	background-color: #0065FC;
 	color:white;
 	border-radius: 0px 15px 15px 0px;
@@ -389,12 +471,46 @@ a {
 	margin-left: 20px;
 }
 
-#basdepage{
+li {
+	list-style-type: none;
+}
 
+#basdepage {
+
+    display: flex;
 	height: 220px;
 	width: 1435px;
 	background-color: #F2F2F2;
+	margin-top: 60px;
+	margin-left: -10px;
 }
+
+.apropos  {
+
+	margin-left: 50px;
+}
+
+#basdepage li {
+
+	margin-top: 20px;
+	margin-left: -40px;
+	font-size: 12px;
+}
+#basdepage div {
+
+	margin-top: 40px;
+}
+.noshebergements {
+
+	margin-left: 270px;
+}
+
+.assistance {
+
+	margin-left: 290px;
+}
+
+
 @media (min-width: 1200px) {
 
 	.container {
