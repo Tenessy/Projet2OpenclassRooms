@@ -2,78 +2,79 @@
 <html>
     <head>
        <meta charset="utf-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1" />
        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
        <link rel="preconnect" href="https://fonts.gstatic.com"> 
        <link rel="preconnect" href="https://fonts.gstatic.com"> 
        <link rel="preconnect" href="https://fonts.gstatic.com"> 
        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap" rel="stylesheet">
        <link rel="stylesheet" href="reservia.css" />
+       <link rel="stylesheet" media="screen and (max-width:1024px)" href="petitEcran.css" />
     </head>
 <body>
 
-  <header>
-	  <div class="container" >
-	    <div class="row">
+     <header>
          <img src="Reservia.svg" alt="logo" />
-        <ul id="entete">
-         	<li><a href="#section_one">Hébergements</a></li>
-         	<li><a href="#section_two">Activités</a></li>
-         	<li><a href="#">S'inscrire</a></li>
-        </ul>
-      </div>
-    </div>
-  </header>
+         <nav id="entete">
+         	<a href="#section_one">Hébergements</a>
+         	<a href="#three">Activités</a>
+         	<a href="#">S'inscrire</a>
+         </nav>
+      </header>
 
-  <div class="container">
-   <div class="row">
+ 
     <div id="menu">
       <h3>Trouvez votre hébergement pour des vacances de rêve </h3>
-      <h5>En plein centre ville ou en pleine nature</h5>
+      <h5 style="font-size: 13.8px;">En plein centre ville ou en pleine nature</h5>
+      <div id="recherche">
         <input type="text"  id="champs"  placeholder="Marseille, France" />
-       <a href="#"><button id="search" style="margin-left: -5px">Rechercher</button></a>
+         <button id="search">
+          <h4>Rechercher</h4>
+          <i class="fas fa-search"></i>
+        </button>
        <div id="marker">
         <i class="fas fa-map-marker-alt"></i>
       </div>
+    </div>
+     <nav>
+      <h4>Filtres</h4>
       <ul id="filtre">
-        <h4>Filtres</h4>
-        <li style="width: 192px;">
+        <li id="a">
           <div class="cerclebleu">
             <i class="fas fa-money-bill-wave"></i>
           </div>
           <h4>Économique</h4>
         </li>
-        <li style="width: 145px;">
+        <li id="b">
           <div class="cerclebleu">
             <i class="fas fa-child"></i>
           </div>
           <h4>Familial</h4>
         </li>
-        <li style="width: 180px;">
+        <li id="c">
           <div class="cerclebleu">
             <i class="fas fa-heart"></i>
           </div>
           <h4>Romantique</h4>
         </li>
-        <li style="width: 240px;">
+        <li id="d">
           <div class="cerclebleu">
             <i class="fas fa-dog"></i>
           </div>
           <h4>Animaux autorisés</h4>
         </li>
       </ul>
+    </nav>
       <div class="info">
         <i class="fas fa-info"></i>
       </div>
-      <h5 style="margin-left: 37px;
-      margin-top: -20px;">Plus de 500 logements sont disponible dans cette ville</h5>
+        <h5 style="margin-left: 50px;margin-top: -20px; font-size: 13.8px;">
+          Plus de 500 logements sont disponibles dans cette ville</h5>
     </div>
-   </div>
-  </div>
+  
 
 <div id="alignement">
 	<section id="section_one">
-	  <div class="container">
-      <div class="row">
       <div class="heberge">
         <h3>Hébergements à Marseille</h3>
         <div id="logement">
@@ -156,14 +157,11 @@
           </div>
           <h4>Afficher plus</h4>
           </div>
-      </div>
-    </div>
+  
 	</section>
 
 	<section id="section_two">
-	 <div class="container">
-      <div class="row">
-       <div class="populaire">
+       <div id="populaire">
      <h3>Les plus populaires</h3>
      <div id="logement3">
         <a href="#">
@@ -204,39 +202,74 @@
       </a>
     </div>
        	</div>
-       </div>
-      </div>
   </section>
 </div>
 
-
-
 	<section id="three">
-	 <div class="container">
-      <div class="row">
-        <h3>Activités à Marseille</h3>
-       <div id="alignement2">
- 
-     <div class="hotel3">
-       <img src="activites/2_large/vieuxportLarge.jpg" alt="Marseille"/>
-       <h3>Vieux Port</h3>
-     </div>
-     <div class="hotel4">
-       <img src="activites/4_small/fortPromegueSmall.jpg" alt="fort" />
-       <h3>Fort de Promègues</h3>
-     </div>
-     <div class="hotel5">
-       <img src="" />
-     </div>
+    <h3 style="margin-top: 65px;margin-left: 45px;">Activités à Marseille</h3>
+	  <div id="conteneur">
+      <div class ="hotel3"  style="margin-left: 45px;">
+        <img src="activites/2_large/vieuxportLarge.jpg" alt="Marseille"/>
+        <h3>Vieux Port</h3>
+      </div>
+      <div class="alignement3">
+        <div class="hotel4">
+         <img src="activites/4_small/fortPromegueSmall.jpg" alt="fort" />
+         <h3>Fort de Promègues</h3>
         </div>
-       </div>
-      </div>	
-    </section>
+        <div class="hotel5">
+          <img src="activites/4_small/iledefrioulSmall.jpg" alt="frioul" />
+          <h3>Îles du Frioul</h3>
+        </div>
+      </div>
+      <div class="hotel3">
+        <img src="activites/3_medium/ParcCalanqueMedium.jpg" alt="" />
+        <h3>Parc National des Calanques</h3>
+      </div>
+      <div class="alignement3">
+        <div class="hotel6">
+          <img src="activites/3_medium/NotreDameMedium.jpg" alt="" />
+          <h3>Notre-Dame-de-la-Garde</h3>
+        </div>
+        <div class="hotel7">
+          <img src="activites/3_medium/ParcLongchampMedium.jpg" alt="" />
+          <h3>Parc Longchamp</h3>
+        </div>
+      </div>
+    </div>	
+  </section>
  
 
     <footer>
       <div id="basdepage">
-         <h5>A Propos</h5>
+        <div class="apropos">
+          <h5>A Propos</h5>
+         <nav>
+          <ul>
+            <li>Fonctionnement du site</li>
+            <li>Conditions générales de vente</li>
+            <li>Données et confidentialité</li>
+          </ul>
+        </nav>
+        </div>
+        <div class="noshebergements">
+          <h5>Nos Hébergments</h5>
+        <nav>
+          <ul>
+            <li>Chartre Qualité</li>
+            <li>Souemttre votre logement</li>
+          </ul>
+         </nav>
+        </div>
+        <div class="assistance">
+          <h5>Assistance</h5>
+         <nav>
+          <ul>
+            <li>Centre d'aide</li>
+            <li>Nous contacter</li>
+          </ul>
+         </nav>
+        </div>
       </div>
     </footer>
 
