@@ -1,0 +1,163 @@
+@media screen and (max-width: 1024px) {
+
+    
+    
+    #menu {
+
+      width: auto;
+      flex-wrap: wrap; 
+      margin-left: 5%;
+      
+    }
+
+   
+   .hotel2 {
+
+    margin-left: 20px;
+   }
+
+    #search h4{
+
+        display: none;
+    }
+
+    #search {
+
+	   width: 50px;
+	   height: 50px;
+       border-radius: 15px 15px 15px 15px;
+       margin-left: -20px;
+       margin-top: 0px;
+       
+    }
+
+    #filtre {
+
+      width: auto;
+      flex-wrap: wrap;
+      margin-left: -65px;
+      margin-top: -20px;
+    }
+
+    #filtre li{
+
+        margin-top: 15px;
+        margin-left: 15px;
+
+    }
+    #filtre #a {
+
+        width: 175px;
+    }
+
+    #filtre #b {
+        width: 135px;
+    }
+
+
+    header img {
+
+        margin-left: 15px;
+        
+    }
+
+    #entete  { 
+         width: auto;
+        flex-wrap: wrap;
+        font-size: 28px;
+        margin-top: 40px;
+        font-weight: normal;
+        margin-left: 15px;
+      
+    }
+
+   
+
+    #entete a {
+
+        margin-left: 95px;
+    }
+    .heberge {
+        width: auto;
+        align-items: center;
+        margin-left: 15px;
+
+        background-color: white;
+       
+        margin-top: -20px;
+    }
+
+    #alignement {
+        width: auto;
+        flex-direction: column-reverse;
+    }
+
+    #logement {
+        width: auto;
+        flex-direction: column;
+    }
+    #logement2 { 
+        width: auto;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+    .hotel {
+        width: auto;
+        height: 195px;
+        box-shadow: 0px 5px 15px 0px #F2F2F2;
+        border-radius: 15px/15px;
+        margin-top: 10px;
+    }
+
+
+    .hotel img {
+        width: 320px;
+        height: 115px;
+    }
+
+
+    #populaire {
+    width: auto;
+      flex-wrap: wrap;
+     
+      margin-left: 15px;
+    }
+
+    #three{ 
+        margin-top: 850px;
+        margin-left: 0px;
+    }
+
+    #conteneur .hotel3, .hotel4, .hotel5, .hotel6, .hotel7 {
+
+        width: 335px;
+        height: 190px;
+        margin-top: 25px;
+    }
+
+    #conteneur div img {
+
+        width: 335px;
+        height: 135px;
+    }
+    #conteneur {
+       width: auto;
+
+        flex-direction: column;
+      
+    }
+
+    #basdepage {
+
+        flex-direction: column;
+        width: auto;
+        height: 485px; 
+        margin-left: 0px;
+    }
+
+    #basdepage div {
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+}
