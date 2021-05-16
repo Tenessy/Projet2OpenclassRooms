@@ -9,16 +9,18 @@
        <link rel="preconnect" href="https://fonts.gstatic.com"> 
        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap" rel="stylesheet">
        <link rel="stylesheet" href="reservia.css" />
-       <link rel="stylesheet" media="screen and (max-width:1024px)" href="petitEcran.css" />
+       <link rel="stylesheet" media="screen and (max-width:767px)" href="petitEcran.css" />
     </head>
 <body>
 
      <header>
-         <img src="Reservia.svg" alt="logo" />
+      <div id="logo">
+        <img src="Reservia.svg" alt="logo" />
+       </div>
          <nav id="entete">
-         	<a href="#section_one">Hébergements</a>
-         	<a href="#three">Activités</a>
-         	<a href="#">S'inscrire</a>
+           <a href="#section_one">Hébergements</a>
+           <a href="#three">Activités</a>
+           <a href="#">S'inscrire</a>
          </nav>
       </header>
 
@@ -27,15 +29,15 @@
       <h3>Trouvez votre hébergement pour des vacances de rêve </h3>
       <h5 style="font-size: 13.8px;">En plein centre ville ou en pleine nature</h5>
       <div id="recherche">
+        <div id="marker">
+          <i class="fas fa-map-marker-alt"></i>
+        </div>
         <input type="text"  id="champs"  placeholder="Marseille, France" />
          <button id="search">
           <h4>Rechercher</h4>
           <i class="fas fa-search"></i>
         </button>
-       <div id="marker">
-        <i class="fas fa-map-marker-alt"></i>
       </div>
-    </div>
      <nav>
       <h4>Filtres</h4>
       <ul id="filtre">
@@ -67,8 +69,8 @@
     </nav>
       <div class="info">
         <i class="fas fa-info"></i>
-      </div>
-        <h5 style="margin-left: 50px;margin-top: -20px; font-size: 13.8px;">
+    </div>
+        <h5 style="margin-top: -20px; font-size: 13.8px;">
           Plus de 500 logements sont disponibles dans cette ville</h5>
     </div>
   
@@ -162,14 +164,14 @@
 
 	<section id="section_two">
        <div id="populaire">
-     <h3>Les plus populaires</h3>
+         <h3>Les plus populaires</h3>
      <div id="logement3">
         <a href="#">
       <div class="hotel2" style="margin-top: 25px;">
          <img src="2_large/hotelSoleilLarge.jpg" alt="amin"/>
          <h4>Hôtel Le soleil du </br>matin</h4>
         <h5>Nuit à partir de <strong>125€</strong></h5> 
-         <i class="fas fa-star" style="margin-left:150px"></i>
+         <i class="fas fa-star" style="margin-left:150px;"></i>
          <i class="fas fa-star"></i>
          <i class="fas fa-star"></i>
          <i class="fas fa-star"></i>
