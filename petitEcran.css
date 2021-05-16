@@ -61,7 +61,7 @@ header {
   margin-top: 0;
 }
 
-#menu
+
     .info {
 
       margin-right: auto;
@@ -265,18 +265,19 @@ header {
     }
 
     #basdepage {
-       display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         width: auto;
-        height: 485px; 
+        height: auto; 
        
     }
 
     #basdepage div {
         width: auto;
-    justify-content: flex-start;
-        margin-left: 10%;
+        justify-content: flex-start;
+       margin-left: 90px;
         margin-top: 20px;
     }
 }
