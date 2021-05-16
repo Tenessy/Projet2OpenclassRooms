@@ -1,0 +1,151 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    #entete { 
+
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 24px;
+        align-items: center;
+        font-weight: normal;
+        margin-top: -30px;
+        margin-left: 250px;   
+      
+    }
+
+    #entete a{ 
+
+        margin-left: 60px;
+    }
+
+    .heberge {
+
+       display: flex;
+       flex-direction: column;
+        width: 100%;
+        margin-left: auto;
+        align-items: center;
+    }
+
+    .heberge h3:first-child {
+
+       margin-left: -410px;
+       margin-top: 0;
+     
+    }
+.heberge h3:last-child {
+
+    margin-top: 0;
+    margin-left: -560px;
+}
+   
+    #menu {
+
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        flex-wrap: wrap; 
+        align-items: flex-start;
+        margin-left: 40px;
+      
+      }
+
+      #filtre {
+
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        margin-left: 30px;
+        margin-top: -70px;
+      }
+
+      #filtre li {
+
+        margin-top: 15px;
+        margin-left: 15px;
+  
+    }
+
+    #menu nav h4:first-child {
+
+      margin-top: 40px;
+    }
+   
+      #alignement {
+
+        display: flex;
+        flex-direction: column;
+      }
+
+      #populaire {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 0;
+        width: auto;
+        height: 380px;
+      }
+#populaire h3 { 
+
+    position: absolute;
+    margin-top: 0;
+    margin-left: -460px;
+    font-size: 24px;
+}
+     #logement3 .hotel2 {
+          flex-direction: column;
+           width: 230px;
+           height: 200px;
+           margin-left: 10px;
+           margin-top: 110px;
+       }
+
+     #logement3 .hotel2 img {
+
+        width: 130px;
+        height: 190px;
+        border-radius: 15px 0px 0px 15px;
+        margin-left: 5px;
+        margin-top: 5px;
+
+       }
+
+       #logement3 .hotel2 h4 {
+         
+            margin-top: -170px;
+
+       }
+
+      #logement3 {
+
+        display: flex;
+        flex-direction: row;
+      }
+
+      .hotel {
+
+        width: 230px;
+        margin-left: 10px;
+      }
+      .hotel img {
+          width: 220px;
+      }
+
+      #conteneur {
+
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        
+      }
+
+      #basdepage {
+
+        
+        width: auto;
+        flex-direction: row;
+
+      }
+}
