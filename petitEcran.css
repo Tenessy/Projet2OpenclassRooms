@@ -1,30 +1,12 @@
-@media screen and (max-width: 470px) {
-
-    #entete :first-child{
-   
-        margin-left: -80px;
-   
-     }  
-   
-   }
-   @media screen and (min-width: 290px){
-   
-       #entete {
-   
-           display: none;
-       }
-       
-   }
-
+  
 @media screen and (max-width: 767px) {
 
-    body {
-       
-      width: 100%;
-      margin: 0;
-      padding: 0;
-      
-    }
+   #body {
+       margin: 0;
+       padding: 0;
+       width: 100%;
+       overflow: hidden;
+   }
     
     #menu {
 
@@ -32,8 +14,8 @@
       width: auto;
       flex-direction: column;
       flex-wrap: wrap; 
-      align-items: center;
-      margin-left: 15px;
+      margin-top: 20px;
+      margin-left: 20px;
    
       
     }
@@ -41,25 +23,30 @@
 header {
 
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    margin-top: 40px;
+    margin-top:0;
     position: relative;
 }
 
-#logo {
+header img {
      
-  margin-left: -30px;
-  margin-top: -20px;
-  width: 15%;
+  width: 90px;
+  margin-left: 20px;
+  margin-top: 30px;
  
 }
 
    
-#menu h5 {
+#menu h5:last-child{
+  margin-top: -20px;
 
-  margin-left: -60px;
-  margin-top: 0;
+  left: 0;
 }
+#menu h5 {
+    margin-top: -10px;
+}
+
 
 
     .info {
@@ -73,9 +60,10 @@ header {
 
   display: flex;
   flex-wrap: nowrap;
-  align-items: center;
-  width: auto;
+  width: 100%;
   margin-top: 40px;
+  margin-left: 0;
+  margin-right: 20px;
 }
 
 
@@ -106,13 +94,11 @@ header {
     margin-left: 0.5px;
    }
 
-   
-
    #populaire h3 {
 
     padding-top: 30x;
-    margin-left: -100px;
-    font-size: 24px;
+    margin-left: -170px;
+    font-size: 20px;
       
    }
    #populaire .hotel2 {
@@ -121,6 +107,13 @@ header {
    margin-left: -15px;
     margin-top: 10px;
     
+   }
+
+   #populaire .fa-chart-line {
+       color: black;
+       font-size: 20px;
+       margin-left: 300px;
+       margin-top: -40px ;
    }
    #populaire img {
 
@@ -142,19 +135,49 @@ header {
        
     }
 
+
+#champs::placeholder {
+
+    font-size: 16px;
+}
+
+#champs {
+    width: 240px;
+}
     #filtre {
      display: flex;
       width: auto;
       flex-wrap: wrap;
-      margin-left: -65px;
+      margin-left: -50px;
       margin-top: -20px;
     }
 
     #filtre li{
 
         margin-top: 15px;
-        margin-left: 15px;
+        margin-left: 10px;
+        font-size: 14px;
+        width: 50%;
+   
+    }
+#filtre #a , #filtre #b , #filtre #c, #filrtre #d {
 
+    width: 50%;
+}
+    #filtre i {
+
+        font-size: 16px;
+       
+    }
+
+    #menu nav h4:first-child {
+
+      margin-left: 0;
+    }
+
+    #menu h3 {
+
+        margin-left: 0;
     }
     #filtre #a {
 
@@ -164,36 +187,70 @@ header {
     #filtre #b {
         width: 135px;
     }
+     #filtre #c {
+         width: 165px;
+     }
+     #filtre #d {
+         width: 220px;
+     }
 
-
-    #entete { 
+  header nav { 
 
         display: flex;
-        width: auto;
+        width: 100%;
         flex-wrap: wrap-reverse;
-        justify-content: flex-end;
         flex-direction: row;
         font-size: 24px;
         font-weight: normal;
         margin-top: 40px;
-        margin-left: auto;   
-      
+        margin-left: 0;     
     }
     
+    nav #inscrire {
 
-    #entete a {
-       padding-left: 70px;
-      height: 40px;
-       
+        position: absolute;
+        top: 45px;
+        text-align: right;
+        right: -30px;
+        font-weight: bold;
+        
     }
 
+    nav #hebergement, nav #activite {
 
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        top: 0;
+        text-align: center;
+    }
+
+header .bordbleu, header .bordgris {
+
+    width: 50%;
+    margin-top:20px;
+   
+  }
+
+  header .bordbleu {
+
+    border-bottom: 3px solid #0065FC;
+    margin-left: 0;
+
+  }
+
+  header .bordgris {
+
+   border-bottom: 3px solid #F2F2F2;
+   margin-left: auto;
+  
+  }
     .heberge {
       display: flex;
       flex-direction: column;
       align-items: center;
       width: 100%;
-      margin-left: -15px;
+      margin-left: 0;
       background-color: white; 
       margin-top: -20px;
     }
@@ -238,7 +295,15 @@ header {
     
     #three{ 
         margin-top: 850px;
+        align-items: center;
        
+    }
+
+    #conteneur h3:first-child {
+        margin-left: -50px;
+        font-size: 22px;
+        
+        
     }
 
     #conteneur .hotel3, .hotel4, .hotel5, .hotel6, .hotel7 {
@@ -257,9 +322,8 @@ header {
 
         display: flex;
        width: auto;
+       margin-left: 0;
        align-items: center;
-       margin-left: auto;
-
         flex-direction: column;
       
     }
@@ -271,6 +335,7 @@ header {
         flex-wrap: wrap;
         width: auto;
         height: auto; 
+        margin-left: 0;
        
     }
 
