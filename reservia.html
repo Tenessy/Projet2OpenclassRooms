@@ -10,19 +10,19 @@
        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap" rel="stylesheet">
        <link rel="stylesheet" href="reservia.css" />
        <link rel="stylesheet" media="screen and (max-width:767px)" href="petitEcran.css" />
-       <link rel="stylesheet" media="screen and (min-width:768px) and (max-width:1024px)" href="tablette.css" />
+       <link rel="stylesheet" media="screen and (min-width:768px) and (max-width:1048px)" href="tablette.css" />
     </head>
 <body>
 
      <header>
-      <div id="logo">
-        <img src="Reservia.svg" alt="logo" />
-       </div>
+        <img src="Reservia.svg" id="logo" alt="logo" />
          <nav id="entete">
-           <a href="#section_one">Hébergements</a>
-           <a href="#three">Activités</a>
-           <a href="#">S'inscrire</a>
+           <a href="#section_one" id="hebergement">Hébergements</a>
+           <a href="#three" id="activite">Activités</a>
+           <a href="#" id="inscrire">S'inscrire</a>
          </nav>
+         <div class="bordbleu"></div>
+         <div class="bordgris"></div>
       </header>
 
  
@@ -71,7 +71,7 @@
       <div class="info">
         <i class="fas fa-info"></i>
     </div>
-        <h5 style="margin-top: -20px; font-size: 13.8px;">
+        <h5 style= "font-size: 13.8px;">
           Plus de 500 logements sont disponibles dans cette ville</h5>
     </div>
   
@@ -165,6 +165,7 @@
 	<section id="section_two">
        <div id="populaire">
          <h3>Les plus populaires</h3>
+         <i class="fas fa-chart-line"></i>
      <div id="logement3">
         <a href="#">
       <div class="hotel2">
@@ -208,8 +209,9 @@
 </div>
 
 	<section id="three">
-    <h3>Activités à Marseille</h3>
+    
 	  <div id="conteneur">
+      <h3>Activités à Marseille</h3>
       <div class ="hotel3">
         <img src="activites/2_large/vieuxportLarge.jpg" alt="Marseille"/>
         <h3>Vieux Port</h3>
