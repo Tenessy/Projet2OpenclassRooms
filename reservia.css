@@ -11,32 +11,61 @@
 
 	display: none;
 }
-body{
+body {
+	width: 100%;
+   margin: 0;
+   padding: 0;
+	font-family: 'Raleway', sans-serif;	
 
-	font-family: 'Raleway', sans-serif;
-	
 }
-header {
 
-	width: 1315px;	
-	
+header nav {
+
+   display: flex;
+   width: auto;
+   flex-direction: row;
+   flex-wrap: wrap;
+	margin-top: 0;
+
 }
+
 
 header img {
 
 	width: 100px; 
 	height: 50px; 
-	margin-top:35px;
+	margin-top:50px;
 	margin-left: 50px;
 }
 
-#entete {
+header nav {
 
 	display: flex;
-	margin-left: 928px;
-	font-weight: bold;
-	margin-top: -20px;	
+	margin-left: 1050px;
+	margin-top: -60px;	
+	font-size: 20px;
+
 }
+header .bordbleu {
+
+    border-bottom: 3px solid #0065FC;
+    margin-left: 1000px;
+	width: 170px;
+	margin-top: -55px;
+	
+
+  }
+
+  nav #inscrire {
+
+	font-weight: bold;
+  }
+
+  nav #activite {
+
+	color: black;
+	
+  }
 
 #entete a {
 
@@ -49,12 +78,52 @@ header img {
 
 	width: 920px;
 	margin-left: 50px;
-	margin-top:45px
+	margin-top: 125px;
+}
+#search {
+
+	border: none;
+	width: 130px;
+	height: 50px;
+	margin-left: -5px;
+	background-color: #0065FC;
+	color:white;
+	border-radius: 0px 15px 15px 0px;
+	margin-top: 20px;
+}
+
+
+#champs {
+	width: 235px;
+	height: 50px;
+	border: 1px solid #F2F2F2;	
+	margin-left: 50px;
+	
+}
+
+#champs::placeholder {
+
+	color: black;
+	font-weight: bold;
+	padding-left: 15px;
+	font-size: 16px;
+
+}
+
+#marker {
+
+	width: 50px;
+	height: 50px;
+	border-radius: 15px 0px 0px 15px;
+	background-color: #F2F2F2;
+	position: absolute;
+	margin-top: 21px;
+	
 }
 
 #filtre li{
 	list-style-type: none;
-	margin-left: 20px;
+	margin-left: 50px;
 	border-radius: 30px;
 	border-style: solid;
 	border-color:  #F2F2F2;
@@ -111,7 +180,7 @@ header img {
 	text-decoration: none;
 	width: 1350PX;
 	margin-left: -25px;
-	margin-top: 30px;
+	margin-top: -55px;
 }
 
 
@@ -120,6 +189,12 @@ header img {
 	margin-top: -35px;
 	margin-left: 45px;
 }
+
+#menu nav h4:first-child {
+
+	margin-top: 40px;
+  }
+
 .info {
 
 	color: #0065FC;
@@ -128,8 +203,14 @@ header img {
 	height: 20px;
 	width: 20px;
 	border: 1px solid #F2F2F2;
-	margin-left: 15px;
+	margin-left: 0;
 	
+}
+
+#menu h5:last-child {
+
+	margin-left: 40px;
+	margin-top: -20px;
 }
 
 .info i {
@@ -140,6 +221,8 @@ header img {
 
 .heberge{
 
+   display: flex;
+   flex-direction: column;
    width: 880px;
    height: 625px;
    background-color: #F2F2F2;
@@ -151,8 +234,8 @@ header img {
 .heberge h3 {
 
 	margin-left: 40px;
-	font-size: 22px;
-	padding-top: 40px;
+	font-size: 20px;
+	padding-top: 20px;
 	
 	
 }
@@ -199,7 +282,7 @@ a {
 	color: black;
 }
 
-.hotel h5{
+.hotel h5 {
 
 	margin-left: 15.5px;
 	font-size: 13px;
@@ -207,7 +290,6 @@ a {
 	font-weight: normal;
 	height: 0;
 	color: black;
-
 }
 
 .hotel i {
@@ -222,7 +304,7 @@ a {
 
 	display: flex;
 	margin-left: 5px;	
-	margin-top:10px;
+	margin-top:0;
 }
 #logement .hotel {
 
@@ -240,8 +322,10 @@ a {
 
 #populaire {
 
-   width: 417px;
+   display: flex;
+   flex-direction: column;
    height: 625px;
+   width: 420px;
    background-color: #F2F2F2;
    border-radius: 8px 8px 8px 8px;
    margin-left: 40px;
@@ -258,14 +342,15 @@ a {
 }
 #populaire h3 {
 
-	margin-left: 30px;
-	padding-top: 45px;
+	margin-left: 35px;
+	margin-top: 40px;
 }
 #populaire h4{
 	margin-left: 150px;
 	font-size: 15px;
 	margin-top: -110px;
 	color: black;
+	width: 140px;
 
 }
 
@@ -282,8 +367,23 @@ a {
 
 	color: #0065FC;
 	font-size: 12px;
-	margin-top: -40px;
 	margin-left: -4px;
+	
+}
+
+#populaire .istar {
+
+	margin-left: 155px;
+	margin-top: 40px;
+
+}
+
+#populaire .fa-chart-line{
+	color: black;
+	font-size: 20px;
+	margin-top: -40px;
+	margin-left: 355px;
+	height: 0;
 }
 .hotel2 {
 
@@ -294,27 +394,34 @@ a {
 	border-radius: 15px 15px 15px 15px;
 }
 
+#logement3 {
+
+    margin-top: 10px;
+	margin-left: 0;
+}
 
 #logement3 .hotel2 {
 
 	margin-left: 35px;
 	margin-top: 35px;
-
-
 }
 a {
 	text-decoration: none;
 	color: #0065FC;
 	font-size: 10px;
 }
+
+
+
 #alignement {
 
 	display: flex;	
+	
 }
 
 .hotel3{
 
-	width: 300px;
+	width: 305px;
 	height: 445px;
 	margin-left: 40px;
 	background-color: white;
@@ -331,7 +438,7 @@ a {
 }
 
 .hotel4 {
-	width: 300px;
+	width: 305px;
 	height: 240px;
 	margin-left: 40px;
 	background-color: white;
@@ -348,16 +455,16 @@ a {
 }
 
 
-#conteneur h3 {
+#three h3:first-child {
 
-	margin-left: 18px;
-	margin-top: 20px;
-	font-size: 14px;
+	margin-left: 50px;
+	margin-top: 60px;
+	font-size: 20px;
 
 }
 .hotel5 {
 
-	width: 300px;
+	width: 305px;
 	height: 160px;
 	margin-left: 40px;
 	margin-top: 40px;
@@ -385,7 +492,17 @@ a {
 #conteneur {
 
 	display: flex;
+	flex-wrap: wrap;
+	width: auto;
 	margin-top: 25px;
+	margin-left: 10px;
+}
+
+#conteneur h4 {
+
+	font-size: 15px;
+	margin-left: 15px;
+	margin-top: 15px;
 }
 
 .hotel5 img {
@@ -427,43 +544,7 @@ a {
 	display: flex;
 }
 
-#search {
 
-	border: none;
-	width: 130px;
-	height: 50px;
-	margin-left: -5px;
-	background-color: #0065FC;
-	color:white;
-	border-radius: 0px 15px 15px 0px;
-	margin-top: 20px;
-}
-
-
-#champs {
-	width: 235px;
-	height: 50px;
-	border: 1px solid #F2F2F2;	
-	margin-left: 50px;
-	
-}
-
-#champs::placeholder {
-
-	color: black;
-	font-weight: bold;
-	padding-left: 15px;
-
-}
-
-#marker {
-
-	width: 50px;
-	height: 50px;
-	border-radius: 15px 0px 0px 15px;
-	background-color: #F2F2F2;
-	margin-top: -50px;
-}
 
 #marker i {
 
@@ -479,10 +560,10 @@ li {
 
     display: flex;
 	height: 220px;
-	width: 1435px;
+	width: auto;
 	background-color: #F2F2F2;
 	margin-top: 60px;
-	margin-left: -10px;
+	margin-left: 0;
 }
 
 .apropos  {
@@ -499,10 +580,19 @@ li {
 #basdepage div {
 
 	margin-top: 40px;
+	
 }
 .noshebergements {
 
 	margin-left: 270px;
+	
+
+}
+#basdepage h5 {
+
+	font-size: 16px;
+	margin-left: 0;
+	margin-top: 0;
 }
 
 .assistance {
