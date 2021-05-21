@@ -1,0 +1,96 @@
+@media screen and (min-width: 1440px) {
+    
+    #menu {
+        align-items: center;
+       
+    }
+
+   
+
+    #menu h3:first-child {
+        margin-left: -900px;
+        margin-top: 0;
+    }
+    #menu h5 {
+        margin-left: -1140px;
+        margin-top: 0;
+    }
+
+    #menu #recherche {
+        margin-left: -980px;
+    }
+
+    #menu h5:last-child {
+        margin-left: -1000px;
+        
+    }
+
+    #menu .info {
+
+        margin-left: -1390px;
+    }
+
+  #menu nav h4:first-child {
+      margin-left: -20px;
+  }
+
+  #filtre li { 
+      margin-left: 25px;
+  }
+
+    header  { 
+
+        display: flex;
+        width: auto;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: nowrap;
+        font-size: 24px;
+        font-weight: normal;
+        margin-top: -30px;
+        margin-left: 155px;   
+      
+    }
+
+    header {
+      
+      width: auto;
+      flex-wrap: wrap;
+      margin-top: 0;
+      position: relative;
+
+    }
+    header nav {
+        margin-left: 850px;
+        margin-top: 50px;
+        position: absolute;
+    }
+
+    
+
+     header img {
+       position: absolute;
+        margin-left: -1350px;
+    }
+
+  header .bordbleu {
+        margin-top: 0;
+        margin-left: 530px;
+    }
+
+    #basdepage {
+
+        width: auto;
+        flex-direction: row;
+        margin-left: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    #basdepage .apropos {
+
+        margin-left: -390px;
+    }
+    
+
+}
