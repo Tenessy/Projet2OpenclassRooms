@@ -24,7 +24,8 @@ header nav {
    display: flex;
    width: auto;
    flex-direction: row;
-   flex-wrap: wrap;
+   flex-wrap: nowrap;
+   margin-left: -400px;
 	margin-top: 0;
 
 }
@@ -34,7 +35,7 @@ header img {
 
 	width: 100px; 
 	height: 50px; 
-	margin-top:50px;
+	margin-top:45px;
 	margin-left: 50px;
 }
 
@@ -51,7 +52,7 @@ header .bordbleu {
     border-bottom: 3px solid #0065FC;
     margin-left: 1000px;
 	width: 170px;
-	margin-top: -55px;
+	margin-top: -54px;
 	
 
   }
@@ -76,7 +77,8 @@ header .bordbleu {
 
 #menu {
 
-	width: 920px;
+	display: flex;
+	flex-direction: column;
 	margin-left: 50px;
 	margin-top: 125px;
 }
@@ -218,18 +220,45 @@ header .bordbleu {
 	margin-left: 8px;
 	margin-top: 4px;
 }
+#alignement {
 
-.heberge{
+	display: flex;
+	width: 100%;
+	justify-content: center;	
+	margin-left: -50px
+	
+}
+
+
+.heberge { 
 
    display: flex;
-   flex-direction: column;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding-top: 60px;
+   padding-bottom: 20px;
    width: 880px;
-   height: 625px;
+   height: auto;
    background-color: #F2F2F2;
    border-radius: 8px 8px 8px 8px;
    margin-top: 45px;
    margin-left: 50px;
-   float: left; 
+   
+}
+
+.heberge h3:first-child {
+
+	position: absolute;
+	 margin-left: 35px;
+	 margin-top: -40px;
+   
+  }
+.heberge h3:last-child {
+  
+  top: 720px;
+  margin-left: 35px;
+  margin-top: 20px;
+  
 }
 .heberge h3 {
 
@@ -251,8 +280,9 @@ header .bordbleu {
 .hotel {
 
 	width: 245px;
-	height: 199px;
+	height: 200px;
 	margin-left: 32px;
+	margin-top: 30px;
 	background-color: white;
 	border-radius: 15px 15px 15px 15px;
 }
@@ -300,32 +330,14 @@ a {
 	margin-left: -2px;
 	
 }
-#logement {
-
-	display: flex;
-	margin-left: 5px;	
-	margin-top:0;
-}
-#logement .hotel {
-
-	margin-top: 5px;	
-}
-
-#logement2{
-
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 30px;
-	margin-left: 5px;
-}
-
 
 #populaire {
 
    display: flex;
    flex-direction: column;
+   flex-wrap: wrap;
    height: 625px;
-   width: 420px;
+   width: 100%;
    background-color: #F2F2F2;
    border-radius: 8px 8px 8px 8px;
    margin-left: 40px;
@@ -412,13 +424,6 @@ a {
 }
 
 
-
-#alignement {
-
-	display: flex;	
-	
-}
-
 .hotel3{
 
 	width: 305px;
@@ -492,12 +497,19 @@ a {
 #conteneur {
 
 	display: flex;
-	flex-wrap: wrap;
-	width: auto;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	width: 100%;
 	margin-top: 25px;
-	margin-left: 10px;
+	margin-left: -30px;
 }
 
+#three h3:first-child {
+
+	margin-left: -1160px;
+	text-align: center;
+}
 #conteneur h4 {
 
 	font-size: 15px;
