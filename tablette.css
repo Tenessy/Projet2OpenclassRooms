@@ -34,6 +34,7 @@
 
       margin-left: 35px;
     }
+
 header .bordbleu {
 
   margin-left: 230px;
@@ -52,7 +53,7 @@ header .bordbleu {
         width: 100%;
         justify-content: center;
         flex-wrap: wrap;
-        margin-left: 50px;
+        margin-left: 40px;
         height: auto;
         padding-bottom: 90px;
            
@@ -77,9 +78,10 @@ header .bordbleu {
 .heberge .hotel {
 
   width: 215px;
-  margin-left: 20px;
+  margin-left: 15px;
   margin-top: 30px;
 }
+
 .hotel img {
     width: 205px;
 }
@@ -136,7 +138,7 @@ header .bordbleu {
         position: relative;
         flex-direction: row;
         justify-content: center;
-        margin-left: 50px;
+        margin-left: 40px;
         width: 100%;
         margin-top: 40px;
         height: 380px;
