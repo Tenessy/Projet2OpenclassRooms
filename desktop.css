@@ -1,16 +1,45 @@
-@media screen and (min-width:1020px) and (max-width:1250px) {
+@media screen and (min-width:1024px) and (max-width: 1250px) {
 
     #menu {
 
+        display: flex;
+        flex-direction: column;
         margin-left: 20px;
+        width: auto;
+        flex-wrap: wrap;
     }
 
-    #entete {
+    header img {
+      margin-left: 20px;
+    }
+    header nav { 
 
         display: flex;
+        width: auto;
         flex-direction: row;
-
+        flex-wrap: nowrap;
+        font-size: 24px;
+        font-weight: normal;
+        margin-top: -40px;
+        margin-left: 635px;   
+      
     }
+
+    header .bordbleu {
+
+        margin-left: 605px;
+        margin-top: -68px;
+      }
+
+    header {
+      
+        width: auto;
+        flex-wrap: wrap;
+        margin-top: -10px;
+        position: relative;
+  
+      }
+
     #filtre {
 
         display: flex;
@@ -31,45 +60,95 @@
       
         display: flex;
         flex-direction: row;
-        position: relative;
-         width: 880px;
-         flex-wrap: wrap;
-    
-    
-
+        flex-wrap: wrap;
+        margin-left: 90px;
+        padding-top: 60px;
+        padding-bottom: 20px;
+        width: 590px;
+        height: auto;
+        
     
       }
 
-      #logement {
+      .hotel {
 
-          width: 10%;
+        width: 245px;
+        height: 195px;
+        box-shadow: 0px 5px 15px 0px #F2F2F2;
+        border-radius: 15px/15px;
+        margin-top: 25px;
+     
+
       }
 
-      #logement2 {
+      .heberge h3:first-child {
 
-          width: 800px;
-      }
-
+          position:absolute;
+           margin-left: 35px;
+           margin-top: -40px;
+         
+        }
+    .heberge h3:last-child {
+        
+        top: 720px;
+        margin-left: 35px;
+        margin-top: 0;
+        
+    }
       #alignement {
 
           display: flex;
           flex-direction: row;
+          justify-content: center;
       }
 
       #populaire {
-          width: auto;
+          width: 365px;
+          margin-left: 20px;
+          height: 805px;
       }
 
       #populaire .hotel2 {
 
-        width: 250px;
+        width: 310px;
+        height: 195px;
+        margin-left: 25px;
+        margin-top: 30px;
       }
 
+      #populaire img {
+
+
+        height: 185px;
+      }
+
+      #populaire .fa-chart-line{
+
+        margin-left: 320px;
+
+      }
+
+      #populaire .hotel2 h4 {
+
+        margin-top: -160px;
+      }
+
+      #populaire .istar{
+
+        margin-top: 65px;
+      }
+
+      #populaire h3 {
+
+         margin-left: 25px;
+      }
       #conteneur {
 
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        margin-left: -30px;
+        margin-top: -20px;
         justify-content: center;
         width: 100%;
       }
@@ -81,9 +160,15 @@
           
       }
 
+      #three h3:first-child {
+
+        margin-left: -790px;
+        text-align: center;
+      }
+
       #conteneur .hotel3, #conteneur .hotel4, #conteneur .hotel5, #conteneur .hotel6, #conteneur .hotel7 {
 
-        width: 300px;
+        width: 290px;
         height: 190px;
         margin-top: 35px;
         margin-left: 50px;
@@ -91,8 +176,17 @@
 
     #conteneur img {
 
-        width: 305px;
+        width: 290px;
         height: 140px;
     }
+
     
+    #basdepage div {
+      align-items: center;
+     
+    }
+
+    #basdepage .apropos {
+      margin-left: 20px;
+    }
 }
