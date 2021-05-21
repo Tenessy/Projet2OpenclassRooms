@@ -95,17 +95,22 @@
      #champs {
          margin-left: 0;  
      }
+
+     #alignement {
+
+         margin-left:0;
+     }
  
  #populaire {
  
      display: flex;
      flex-direction: column;
      align-items: center;
-     width: auto;
+     width: 100%;
      border-radius: 0;
      height: 580px;
      margin-top: 40px;
-     margin-left: auto;
+     margin-left: 0;
            
  }
  
@@ -293,7 +298,7 @@
        flex-direction: column;
        align-items: center;
        width: 100%;
-       margin-left: auto;
+       margin-left: 0;
        background-color: white; 
        margin-top: 20px;
      }
