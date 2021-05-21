@@ -1,18 +1,65 @@
-@media screen and (min-width:1024px) and (max-width: 1250px) {
+@media screen and (min-width:1024px) and (max-width: 1440px) {
 
     #menu {
 
         display: flex;
         flex-direction: column;
-        margin-left: 20px;
+        margin-left: 30px;
         width: auto;
         flex-wrap: wrap;
+        align-items: center;
     }
 
+    #menu {
+      align-items: center;
+     
+  }
+
+  #menu h3:first-child {
+      margin-left: -500px;
+      margin-top: 0;
+  }
+  #menu h5 {
+      margin-left: -740px;
+      margin-top: 0;
+  }
+
+  #menu #recherche {
+      margin-left: -580px;
+  }
+
+  #menu h5:last-child {
+      margin-left: -580px;
+      
+  }
+
+  #menu .info {
+
+      margin-left: -990px;
+  }
+
+#menu nav h4:first-child {
+    margin-left: -90px;
+}
+
     header img {
-      margin-left: 20px;
+
+       margin-left: 30px;
     }
+    header {
+
+       display: flex;
+        width: auto;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: nowrap;
+        font-size: 24px;
+        font-weight: normal;
+        margin-top: -30px;
+        margin-left: 155px;  
+    }/*
     header nav { 
+
 
         display: flex;
         width: auto;
@@ -24,11 +71,20 @@
         margin-left: 635px;   
       
     }
+   */
+   header nav {
+    margin-left: 550px;
+    margin-top: 50px;
+    position: absolute;
+}
 
+   header img {
+     position: absolute;
+     margin-left: -1020px;
+   }
     header .bordbleu {
-
-        margin-left: 605px;
-        margin-top: -68px;
+      margin-left: 240px;
+        margin-top: 10px;
       }
 
     header {
@@ -45,7 +101,7 @@
         display: flex;
         flex-wrap: wrap;
         width: auto;
-        margin-left: 30px;
+        margin-left: -60px;
         margin-top: -70px;
       }
 
@@ -100,6 +156,7 @@
           display: flex;
           flex-direction: row;
           justify-content: center;
+  
       }
 
       #populaire {
@@ -149,7 +206,7 @@
         flex-wrap: wrap;
         margin-left: -30px;
         margin-top: -20px;
-        justify-content: center;
+       justify-content: center;
         width: 100%;
       }
 
@@ -181,9 +238,13 @@
     }
 
     
-    #basdepage div {
-      align-items: center;
-     
+
+    #basdepage {
+      width: auto;
+        flex-direction: row;
+        margin-left: auto;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     #basdepage .apropos {
