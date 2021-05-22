@@ -128,13 +128,12 @@ header .bordbleu {
 	border-radius: 15px 0px 0px 15px;
 	background-color: #F2F2F2;
 	position: absolute;
-	margin-top: 15px;
-	
+	margin-top: 15px;	
 }
 
 
 
-#filtre li{
+#filtre li {
 	list-style-type: none;
 	margin-left: 25px;
 	border-radius: 30px;
@@ -171,7 +170,7 @@ header .bordbleu {
 	width: 240px;
 }
 
-.cerclebleu{
+.cerclebleu {
 
 	color: #0065FC;
 	border-radius: 50%;
@@ -276,6 +275,7 @@ header .bordbleu {
   top: 720px;
   margin-left: 35px;
   margin-top: 20px;
+  font-size: 16px;
   
 }
 .heberge h3 {
@@ -455,7 +455,7 @@ a {
 
 .hotel3 img {
 
-	width: 300px;
+	width: 305px;
 	height: 390px;
 	border-radius: 15px 15px 0px 0px;
 }
@@ -472,7 +472,7 @@ a {
 
 .hotel4 img {
 
-	width: 300px;
+	width: 305px;
 	height: 180px;
 	border-radius: 15px 15px 0px 0px;
 }
@@ -541,7 +541,7 @@ a {
 }
 
 .hotel5 img {
-	width: 300px;
+	width: 305px;
 	height: 110px;
 	border-radius: 15px 15px 0px 0px;
 }
