@@ -75,6 +75,13 @@
         margin-top: 0;
         margin-left: 530px;
     }
+    #conteneur {
+        margin-left: -10px;
+    }
+
+    #three h3:first-child {
+        margin-left: -1130px;
+    }
 
     #basdepage {
 
