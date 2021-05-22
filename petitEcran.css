@@ -297,6 +297,7 @@ header .bordbleu, header .bordgris {
       margin-left: 0;
       background-color: white; 
       margin-top: 20px;
+      height: auto;
     }
 
     .hotel .fa-star {
