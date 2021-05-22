@@ -57,21 +57,8 @@
         font-weight: normal;
         margin-top: -30px;
         margin-left: 155px;  
-    }/*
-    header nav { 
-
-
-        display: flex;
-        width: auto;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        font-size: 24px;
-        font-weight: normal;
-        margin-top: -40px;
-        margin-left: 635px;   
-      
     }
-   */
+
    header nav {
     margin-left: 550px;
     margin-top: 50px;
@@ -121,7 +108,7 @@
         padding-top: 60px;
         padding-bottom: 20px;
         width: 590px;
-        height: auto;
+        height: 725px;
         
     
       }
