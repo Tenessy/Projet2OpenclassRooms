@@ -58,7 +58,9 @@ header img {
     font-size: 20px;
     width: 95%;
 }
-
+.fa-search {
+    display: block;
+}
 #menu nav {
 
     width: auto;
