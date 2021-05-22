@@ -220,6 +220,10 @@ header .bordbleu {
 	
 }
 
+.fa-search {
+	display: none;
+}
+
 #menu h5:last-child {
 
 	margin-left: 40px;
