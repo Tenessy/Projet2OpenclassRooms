@@ -15,12 +15,12 @@
      
   }
 
-  #menu h3:first-child {
-      margin-left: -500px;
+  #menu h1 {
+      margin-left: -430px;
       margin-top: 0;
   }
-  #menu h5 {
-      margin-left: -740px;
+  #menu h2 {
+      margin-left: -760px;
       margin-top: 0;
   }
 
@@ -28,9 +28,14 @@
       margin-left: -580px;
   }
 
-  #menu h5:last-child {
-      margin-left: -580px;
+  #menu h3 {
+      margin-left: -90px;
       
+  }
+
+  #menu h5 {
+
+    margin-left: -600px;
   }
 
   #menu .info {
@@ -67,7 +72,7 @@
 
    header img {
      position: absolute;
-     margin-left: -1020px;
+     margin-left: -1050px;
    }
     header .bordbleu {
       margin-left: 240px;
@@ -109,8 +114,6 @@
         padding-bottom: 20px;
         width: 590px;
         height: 725px;
-        
-    
       }
 
       .hotel {
@@ -120,20 +123,24 @@
         box-shadow: 0px 5px 15px 0px #F2F2F2;
         border-radius: 15px/15px;
         margin-top: 25px;
-     
-
       }
 
-      .heberge h3:first-child {
+     .hotel i {
+        margin-top: 10px;
+     }
+    
+
+      .heberge h2 {
 
           position:absolute;
            margin-left: 35px;
-           margin-top: -40px;
+           margin-top: -20px;
+           font-size: 20px;
          
         }
-    .heberge h3:last-child {
+    .heberge h5 {
         
-        top: 720px;
+        top: 700px;
         margin-left: 35px;
         margin-top: 0;
         
@@ -172,17 +179,19 @@
 
       }
 
-      #populaire .hotel2 h4 {
+      #populaire .hotel2 h3 {
 
         margin-top: -160px;
       }
 
       #populaire .istar{
 
-        margin-top: 65px;
+        margin-top: 55px;
+        margin-left: 150px;
+
       }
 
-      #populaire h3 {
+      #populaire h2 {
 
          margin-left: 25px;
       }
@@ -204,10 +213,11 @@
           
       }
 
-      #three h3:first-child {
+      #three h2 {
 
-        margin-left: -790px;
-        text-align: center;
+        margin-left: -780px;
+        font-size: 20px;
+        margin-top: 50px;
       }
 
       #conteneur .hotel3, #conteneur .hotel4, #conteneur .hotel5, #conteneur .hotel6, #conteneur .hotel7 {
@@ -234,6 +244,6 @@
     }
 
     #basdepage .apropos {
-      margin-left: 20px;
+      margin-left: 10px;
     }
 }
