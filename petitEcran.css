@@ -39,22 +39,16 @@ header img {
  
 }
 
-   
-#menu h5{
-  margin-top: -10px;
-  font-size: 18px;
 
-
-}
-#menu h5:last-child {
+#menu h5 {
 
     margin-top: -20px;
-    font-size: 18px;
-    margin-left: 30px;
+    font-size: 14px;
+    margin-left: 10px;
    
 }
 
-#menu h3 {
+#menu h1 {
     font-size: 20px;
     width: 95%;
 }
@@ -117,36 +111,38 @@ header img {
    #populaire i {
 
     margin-top: 15px;
-    margin-left: 0.5px;
+
    }
 
-   #populaire h3 {
-  position: absolute;
-    margin-top: 50px;
-    margin-left: -150px;
-    font-size: 20px;  
+   #populaire h2 {
+
+     position: absolute;
+     margin-top: 50px;
+     margin-left: -150px;
+     font-size: 20px;  
+
    }
 
-   #logement3 {
+#logement3 {
 
-    width: auto;
-   justify-content: center;
-   margin-top: 80px;
-  
+ width: auto;
+ justify-content: center;
+ margin-top: 80px; 
 }
 
-   #populaire .hotel2 {
+#populaire .hotel2 {
 
-    height: 140px;
-   margin-left: 0;
-    margin-top: 15px;
-    width: 335px;
+  height: 140px;
+  margin-left: 0;
+  margin-top: 15px;
+  width: 335px;
     
-   }
+}
 
-   .hotel2 h4 {
-       width: 140px;
-   }
+.hotel2 h4 {
+  width: 140px;
+
+}
 
    #populaire .fa-chart-line {
        color: black;
@@ -302,31 +298,30 @@ header .bordbleu, header .bordgris {
 
     .hotel .fa-star {
 
-        margin-top: -15px;
+        margin-top: 5px;
     } 
 
     .heberge .hotel {
         margin-left: 0;
     }
 
-    .heberge h3 {
+    .heberge h4{
 
-        font-size: 20px; 
-        margin-left: -180px;   
+        margin-top: 20px;  
     }
 
-
-.heberge h3:first-child {
+.heberge h2 {
 
        margin-left: -70px;
-       margin-top: -50px;
+       margin-top: -20px;
+       font-size: 20px;
        
     }
-    .heberge h3:last-child {
+    .heberge h5 {
 
        margin-left: -220px;
-       margin-top: 10px;
-       font-size: 16px;
+       margin-top: 30px;
+       font-size: 18px;
     }
 
     #alignement {
@@ -348,7 +343,7 @@ header .bordbleu, header .bordgris {
         height: 115px;
     }
 
-    #three h3:first-child {
+    #three h2 {
         margin-left: -140px;
         font-size: 20px;
         margin-top: 20px;
