@@ -5,11 +5,11 @@
        
     }
 
-    #menu h3:first-child {
-        margin-left: -900px;
+    #menu h1 {
+        margin-left: -810px;
         margin-top: 0;
     }
-    #menu h5 {
+    #menu h2 {
         margin-left: -1140px;
         margin-top: 0;
     }
@@ -22,14 +22,21 @@
         margin-left: -1000px;
         
     }
+    #populaire .istar {
+
+        margin-left: 155px;
+        margin-top: 25px;
+    
+    }
 
     #menu .info {
 
         margin-left: -1390px;
     }
 
-  #menu nav h4:first-child {
+  #menu nav h3 {
       margin-left: -20px;
+      font-size: 18px;
   }
 
   #filtre li { 
