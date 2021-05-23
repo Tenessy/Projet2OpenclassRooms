@@ -6,6 +6,15 @@
 
 	background-color: #0065FC;
 }
+#populaire .gris {
+
+	color:#F2F2F2;
+}
+
+.heberge .gris {
+
+	color: #F2F2F2;
+}
 
 #search2 {
 
@@ -85,10 +94,25 @@ header .bordbleu {
 	flex-wrap: wrap;
 	width: 100%;
 	margin-left: 50px;
-    
 	margin-top: 125px;
 }
 
+#menu h1 {
+	font-size: 22px;
+}
+
+#menu h2 {
+
+	font-weight: normal;
+	height: 0;	
+	font-size: 13.5px;
+}
+
+#menu h5 {
+    font-weight: normal;
+	font-size: 13.5px;
+	margin-top: -17px;
+}
 
 
 #search {
@@ -202,9 +226,10 @@ header .bordbleu {
 	margin-left: 45px;
 }
 
-#menu nav h4:first-child {
+#menu nav h3 {
 
 	margin-top: 40px;
+	font-size: 18px;
   }
 
 .info {
@@ -225,11 +250,6 @@ header .bordbleu {
 	display: none;
 }
 
-#menu h5:last-child {
-
-	margin-left: 40px;
-	margin-top: -17px;
-}
 
 .info .fa-info {
 	font-size: 10px;
@@ -263,14 +283,15 @@ header .bordbleu {
    
 }
 
-.heberge h3:first-child {
+.heberge h2 {
 
 	position: absolute;
 	 margin-left: 35px;
-	 margin-top: -40px;
+	 margin-top: -20px;
+	 font-size: 22px;
    
   }
-.heberge h3:last-child {
+.heberge h5 {
   
   top: 720px;
   margin-left: 35px;
@@ -278,21 +299,6 @@ header .bordbleu {
   font-size: 16px;
   
 }
-.heberge h3 {
-
-	margin-left: 40px;
-	font-size: 20px;
-	padding-top: 20px;
-	
-	
-}
- .heberge h4{
-
-	margin-left: 40px;
-	font-size: 22px;
-	margin-top: 35px;
-	color: black;
- }
 
 
 .hotel {
@@ -319,8 +325,7 @@ a {
 
 }
 
-
-.hotel h4 {
+.hotel h3{
 
 	margin-left: 15.5px;
 	font-weight: bold;
@@ -330,11 +335,11 @@ a {
 	color: black;
 }
 
-.hotel h5 {
+.hotel h4 {
 
 	margin-left: 15.5px;
 	font-size: 13px;
-	margin-top: 10.6px;
+	top: 13px;
 	font-weight: normal;
 	height: 0;
 	color: black;
@@ -344,11 +349,15 @@ a {
 
 	color: #0065FC;
 	font-size: 12px;
-	margin-top: 8px;
-	margin-left: -2px;
+	margin-top: 18px;
+	margin-left: -1px;
 	
 }
 
+.heberge .istar {
+
+	margin-left: 15px;
+}
 #populaire {
 
    display: flex;
@@ -370,24 +379,25 @@ a {
 	margin-left: 5px;
 	margin-top: 5px;
 }
-#populaire h3 {
+#populaire h2 {
 
 	margin-left: 35px;
+	font-size: 20px;
 	margin-top: 40px;
 }
-#populaire h4{
+#populaire h3{
 	margin-left: 150px;
 	font-size: 15px;
-	margin-top: -110px;
+	margin-top: -120px;
 	color: black;
 	width: 140px;
 
 }
 
-#populaire h5 {
+#populaire h4 {
 	margin-left: 150px;
 	font-size: 13px;
-	margin-top: -15px;
+	margin-top: -5px;
 	font-weight: normal;
 	color: black;
 
@@ -397,11 +407,11 @@ a {
 
 	color: #0065FC;
 	font-size: 12px;
-	margin-left: -4px;
+	margin-left: -1px;
 	
 }
 
-#populaire .istar {
+ .istar {
 
 	margin-left: 155px;
 	margin-top: 40px;
@@ -528,12 +538,12 @@ a {
 	color: black;
 }
 
-#three h3:first-child {
-
-	margin-left: -1160px;
+#three h2 {
+   font-size: 22px;
+	margin-left: -1110px;
 	text-align: center;
 }
-#conteneur h4 {
+#conteneur h3 {
 
 	font-size: 15px;
 	margin-left: 15px;
@@ -567,12 +577,6 @@ a {
 	height: 140px;
 	border-radius: 15px 15px 0px 0px;
 }
-#menu h5 {
-
-	font-weight: normal;
-	height: 0;	
-}
-
 
 #alignement2{
 
