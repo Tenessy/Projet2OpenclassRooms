@@ -13,7 +13,10 @@
         margin-left: 155px;   
       
     }
+    .fa-star .gris {
 
+      color:#F2F2F2;
+    }
     header {
       
       width: auto;
@@ -35,11 +38,12 @@
       margin-left: 35px;
     }
 
-header .bordbleu {
+   header .bordbleu {
 
-  margin-left: 230px;
-  margin-top: -88px;
-}
+     margin-left: 230px;
+     margin-top: -88px;
+     border-bottom: 4px solid #0065FC;
+   }
     #entete a{ 
 
         margin-left: 115px;
@@ -59,32 +63,32 @@ header .bordbleu {
            
     }
 
-    .heberge h3:first-child {
+    .heberge h2 {
 
-    position: absolute;
+      position: absolute;
        margin-left: 15px;
-       top: 60px;
-       
+       top: 60px;   
     }
 
 
-.heberge h3:last-child {
-    position: absolute;
-    top: 510px;
-    margin-left: 15px;
+  .heberge h5 {
+     position: absolute;
+     top: 530px;
+     margin-left: 15px;
+     font-size: 18px;
     
-}
+  }
 
-.heberge .hotel {
+  .heberge .hotel {
 
-  width: 215px;
-  margin-left: 15px;
-  margin-top: 30px;
-}
+    width: 215px;
+    margin-left: 15px;
+    margin-top: 30px;
+  }
 
-.hotel img {
-    width: 205px;
-}
+  .hotel img {
+     width: 205px;
+  }
 
     #menu {
 
@@ -96,15 +100,15 @@ header .bordbleu {
         margin-left: 35px;
       
       }
-#menu h5 {
+  #menu h5 {
 
-  margin-top: -10px;
-}
+   margin-top: -10px;
+ }
 
-#menu h5:last-child {
+  #menu h5:last-child {
 
-  margin-top: -20px;
-}
+    margin-top: -20px;
+  }
       #filtre {
 
         display: flex;
@@ -144,7 +148,7 @@ header .bordbleu {
         height: 380px;
       }
         
-#populaire h3 { 
+#populaire h2 { 
 
    position: absolute;
    top: 0;
@@ -170,16 +174,16 @@ header .bordbleu {
 
      #logement3 .hotel2 img {
         
-  border-radius: 15px 15px 0px 0px;
-  width: 205px;
-  height: 115px;
-  margin-left: 5px;
-  margin-top: 5px;
+      border-radius: 15px 15px 0px 0px;
+      width: 205px;
+      height: 115px;
+      margin-left: 5px;
+      margin-top: 5px;
 
-       } 
+    } 
       
 
-       #logement3 .hotel2 h4 {
+       #logement3 .hotel2 h3 {
          position: absolute;
             margin-top: 10px;
             margin-left: 15px;
@@ -187,24 +191,27 @@ header .bordbleu {
 
        }
 
-       #logement3 .hotel2 h5 {
+       #logement3 .hotel2 h4 {
 
         margin-top: 50px;
         width: 140px;
         margin-left: 15px;
        }
 
-       #logement3 .hotel2 .fa-star {
-
-        margin-top: -20px;
-         margin-left: 0;
+        #logement3 .hotel2 .fa-star {
+         margin-top: 5px;
+         margin-left: -0.5px;
        }
+  
 
-       
-      #logement3 .istar {
-         margin-left: 15px;
-         margin-top: -10px;
-       }
+      #populaire h4 {
+
+       height: 0;
+      }
+     #logement3 .hotel2 .istar {
+         
+        margin-left: 15px;   
+     }
 
       #logement3 {
 
@@ -219,7 +226,7 @@ header .bordbleu {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-       justify-content: center;
+        justify-content: center;
         width: 100%;
         margin-left: -10px;
         margin-top: -30px;
@@ -234,8 +241,9 @@ header .bordbleu {
         margin-left: 20px;
     }
 
-    #conteneur h4 {
+    #conteneur h3{
       font-size: 14px;
+      margin-left: 10px;
       margin-top: 30px;
     }
 
@@ -248,12 +256,12 @@ header .bordbleu {
     }
 
   
-    #three h3:first-child {
+    #three h2{
      
       font-size: 22px;
       margin-top: 40px;
-     text-align: center;
-     margin-left: 50px;
+      text-align: center; 
+      margin-left: 50px;
     }
     #conteneur img {
 
